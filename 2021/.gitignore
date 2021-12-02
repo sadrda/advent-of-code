@@ -1,2 +1,3 @@
 .metals
 .scalafmt.conf
+.vscode
