@@ -1,6 +1,3 @@
-import java.util.ArrayList
-import scala.collection.mutable.ArrayBuffer
-
 def repopulate(fishCount: Array[Long]) = {
   val newFishCount = Array.fill(9)(0L)
   for(n <- 0 until 9) {
