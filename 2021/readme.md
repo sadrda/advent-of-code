@@ -1,1 +1,2 @@
 run rust: F=aXX && rustc $F.rs && ./$F && rm $F
+run cpp: F=aXX && g++ $F.cpp -o $F && ./$F && rm $F
