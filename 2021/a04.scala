@@ -26,7 +26,7 @@ def getFinalScore(board: Array[Array[String]], currentWinningNumbers: Array[Stri
 }
 
 def main(args: Array[String]) = {
-  val input = scala.io.Source.fromFile("a4.txt").mkString.split("\r\n\r\n")
+  val input = scala.io.Source.fromFile("a04.txt").mkString.split("\r\n\r\n")
   val winningNumbers = input(0).split(",")
   val boards = input.drop(1).map(line => line.split("\r\n").map(_.split(" +").filter(_.length > 0)))
 

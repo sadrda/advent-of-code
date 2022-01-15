@@ -1,6 +1,6 @@
 const fs = require("fs")
 const cloneDeep = require("lodash.clonedeep")
-const input = fs.readFileSync("./a8.txt", "utf8")
+const input = fs.readFileSync("./a08.txt", "utf8")
 
 const commands = input
   .split("\n")

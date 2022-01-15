@@ -1,5 +1,5 @@
 def main(args: Array[String]) = {
-  val lines = scala.io.Source.fromFile("a1.txt").getLines.toArray.map(_.toInt)
+  val lines = scala.io.Source.fromFile("a01.txt").getLines.toArray.map(_.toInt)
 
   var depthCounter = 0
   for (i <- 0 until lines.length - 3) {

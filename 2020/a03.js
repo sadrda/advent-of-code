@@ -1,6 +1,6 @@
 const fs = require("fs")
 
-const input = fs.readFileSync("./a3.txt", "utf8")
+const input = fs.readFileSync("./a03.txt", "utf8")
 
 const grid = input.split("\n")
 

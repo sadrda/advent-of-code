@@ -1,6 +1,6 @@
 const fs = require("fs")
 
-const input = fs.readFileSync("./a4.txt", "utf8")
+const input = fs.readFileSync("./a04.txt", "utf8")
 
 const isValidPassport = (requiredFields, passport) => {
   for (const requiredField of requiredFields) {

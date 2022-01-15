@@ -10,7 +10,7 @@ def flow(field: Array[Array[Int]], checkField: Array[Array[Boolean]], x:Int, y:I
 }
 
 def main(args: Array[String]) = {
-  val field = scala.io.Source.fromFile("a9.txt").mkString.split("\r\n").map(line=>line.split("").map(_.toInt))
+  val field = scala.io.Source.fromFile("a09.txt").mkString.split("\r\n").map(line=>line.split("").map(_.toInt))
 
   var lowSum = 0;
 

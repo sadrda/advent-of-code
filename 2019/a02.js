@@ -1,5 +1,5 @@
 const fs = require("fs");
-const input = fs.readFileSync("./a2.txt", "utf8");
+const input = fs.readFileSync("./a02.txt", "utf8");
 
 let numbers = input.split(",");
 

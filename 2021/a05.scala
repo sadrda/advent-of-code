@@ -1,5 +1,5 @@
 def main(args: Array[String]) = {
-  val input = scala.io.Source.fromFile("a5.txt").mkString
+  val input = scala.io.Source.fromFile("a05.txt").mkString
   val commands = input.split("\r\n").map(_.split(" -> ").map(_.split(",").map(_.toInt)))
   
   val lines = commands

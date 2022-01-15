@@ -1,6 +1,6 @@
 const fs = require("fs")
 
-const input = fs.readFileSync("./a9.txt", "utf8")
+const input = fs.readFileSync("./a09.txt", "utf8")
 
 const nums = input.split("\n").map((string) => +string)
 const evilNumber = 70639851

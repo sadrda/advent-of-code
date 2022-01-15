@@ -1,6 +1,6 @@
 def main(args: Array[String]) = {
 
-  val lines = scala.io.Source.fromFile("a2.txt").getLines.toArray.map(line => {
+  val lines = scala.io.Source.fromFile("a02.txt").getLines.toArray.map(line => {
     val command = line.split(" ")
     (command(0), command(1).toInt)
   })

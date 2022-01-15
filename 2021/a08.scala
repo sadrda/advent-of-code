@@ -3,7 +3,7 @@ def printSolutionTable(solutionTable: scala.collection.mutable.Map[String, Array
 }
 
 def main(args: Array[String]) = {
-  val lines = scala.io.Source.fromFile("a8.txt").mkString.split("\r\n").map(line => line.split(" \\| ").map(_.split(" ")))
+  val lines = scala.io.Source.fromFile("a08.txt").mkString.split("\r\n").map(line => line.split(" \\| ").map(_.split(" ")))
 
   val one = Array("RIGHT_TOP", "RIGHT_BOT").sortWith(_>_)
   val two = Array("TOP", "RIGHT_TOP", "MID", "LEFT_BOT", "BOT").sortWith(_>_)

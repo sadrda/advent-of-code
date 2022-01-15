@@ -1,5 +1,5 @@
 def main(args: Array[String]) = {
-  val bits = scala.io.Source.fromFile("a3.txt").getLines.toArray.map(_.split(""))
+  val bits = scala.io.Source.fromFile("a03.txt").getLines.toArray.map(_.split(""))
 
   val zeroCount = Array.fill(bits(0).length)("0")
   val oneCount =  Array.fill(bits(0).length)("0")

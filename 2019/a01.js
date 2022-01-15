@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const input = fs.readFileSync("./a1.txt", "utf8");
+const input = fs.readFileSync("./a01.txt", "utf8");
 let sum = 0;
 input.split("\n").forEach((s, i) => {
   let fuel = Number(s);

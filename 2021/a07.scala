@@ -4,7 +4,7 @@ def factorialSum(n: Int): Int = n match {
 }
 
 def main(args: Array[String]) = {
-  val input = scala.io.Source.fromFile("a7.txt").mkString.split(",").map(_.toInt)
+  val input = scala.io.Source.fromFile("a07.txt").mkString.split(",").map(_.toInt)
 
   val fuelCosts = Array.fill(input.max)(0)
   for(i <- 0 until input.max) {

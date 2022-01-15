@@ -1,5 +1,5 @@
 const fs = require("fs")
-const input = fs.readFileSync("./a5.txt", "utf8")
+const input = fs.readFileSync("./a05.txt", "utf8")
 
 const getRow = (code) => {
   const rows = 128

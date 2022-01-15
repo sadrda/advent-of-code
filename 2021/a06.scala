@@ -9,7 +9,7 @@ def repopulate(fishCount: Array[Long]) = {
 }
 
 def main(args: Array[String]) = {
-  var fishes = scala.io.Source.fromFile("a6.txt").mkString.split(",").map(_.toInt)
+  var fishes = scala.io.Source.fromFile("a06.txt").mkString.split(",").map(_.toInt)
   
   var fishCount = Array.fill(9)(0L)
   for(fish <- fishes) {
