@@ -26,10 +26,11 @@ const MINERAL_VALUES = {
   geode: 16000,
 };
 
+console.time();
 main();
+console.timeEnd();
 
 function main() {
-  console.time();
   const input = fs.readFileSync("a19.txt").toString();
   const blueprints = getBlueprints(input);
 
@@ -40,7 +41,6 @@ function main() {
     geodes.push(maxGeodes);
   }
   console.log(geodes[0] * geodes[1] * geodes[2]);
-  console.timeEnd();
 }
 function getMaxGeodes(blueprint) {
   const startingStates = [
@@ -58,7 +58,6 @@ function getMaxGeodes(blueprint) {
 
 function getGeodes(minute, blueprint, states) {
   if (minute === MINUTES) {
-    //console.log(states);
     return states.map((state) => state.minerals.geode);
   }
 
@@ -127,7 +126,6 @@ function getPossibleNextStates(possibleNextStates, state, blueprint) {
 
       newState.tbfRobots[type]++;
       possibleNextStates.push(newState);
-      //getPossibleNextStates(possibleNextStates, newState, blueprint);
     }
   }
 
