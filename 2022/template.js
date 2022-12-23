@@ -1,3 +1,9 @@
 const fs = require("fs");
 
-const input = fs.readFileSync("aXX.txt").toString();
+console.time();
+main();
+console.timeEnd();
+
+function main() {
+  const input = fs.readFileSync("aXX.txt").toString();
+}
